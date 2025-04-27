@@ -1,52 +1,98 @@
-# Weatherio - Your Weather Web App 🌦️
-<img src="https://res.cloudinary.com/dcqttctnu/image/upload/v1693936616/Screenshot_from_2023-09-05_20-56-31_i6v8b3.png" alt="Search TextInput" width="100%" height="" /> 
+Got it!  
+You want a **more polished, impressive, and professional** README — like a real **portfolio-quality project**.  
+Here’s an upgraded version — **with better structure, better wording, and a cleaner style**.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Behind the Scenes](#behind-the-scenes)
-- [Getting Started](#getting-started)
-- [Live Demo](#live-demo)
-- [GitHub Repository](#github-repository)
-- [Author](#author)
+---
 
-## Introduction
-Welcome to Weatherio, your go-to weather web app for up-to-date weather information! This project was created as a part of the Front-end Development track at #Route Academy, using HTML, CSS, and Vanilla JavaScript. Weatherio provides you with automatic location-based weather updates, forecasts for the next two days, and the ability to explore weather conditions in any city. Stay informed about the weather, rain or shine! ☀️⛅️🌧
+# 🌦️ Weatherly — The Ultimate Weather Forecast App
 
-## Features
-### 📍 Automatic Location-based Weather
-When you open Weatherio, it automatically fetches and displays real-time weather data for your current location. Just grant access to your location, and Weatherio will do the rest!
+**Weatherly** is a sleek and responsive weather application that delivers real-time weather updates, a 5-day forecast, air quality information, and more. Built with modern web technologies and powered by the OpenWeatherMap API, Weatherly is designed to be fast, accurate, and beautifully simple.
 
-### 📅 Forecast for Days Ahead
-Get a glimpse into the weather forecasts for the next two days, tailored to your current location. Stay ahead of Mother Nature's plans and plan your activities accordingly!
+---
 
-### 🌍 Explore Any City
-Curious about the weather elsewhere? Our intuitive real-time search allows you to discover weather updates for any city by typing its name. The convenience is unbeatable, whether you're traveling or simply curious.
+## 🚀 Live Preview
 
-## Behind the Scenes
-### 🔗 API Magic
-Weatherio harnesses the power of asynchronous programming, using the fetch method with async/await, to seamlessly connect with a reliable weather API. This ensures that you always receive accurate and up-to-date weather information at your fingertips.
+🔗 [View Website Here](#)  
+*(Add your GitHub Pages link here once deployed)*
 
-### 🗺️ Geolocation Wonders
-Thanks to the Geolocation API, Weatherio accurately pinpoints your current location after you grant access. Your comfort and ease are our top priorities, ensuring you receive weather information relevant to your location.
+---
 
-## Getting Started
-These instructions will help you set up Weatherio on your local machine for development and testing purposes.
+## 🛠️ Built With
 
-1. Clone the Weatherio repository from GitHub:
+- **HTML5** — Structure
+- **CSS3** — Styling
+- **JavaScript (ES6 Modules)** — Functionality
+- **OpenWeatherMap API** — Real-time weather data
 
-```bash
-git clone https://github.com/yourusername/weatherio.git
+---
+
+## ✨ Features
+
+- 🔍 **City Search** — Find weather by any city name
+- 📍 **Current Location** — Get weather for your exact location
+- 🕒 **Hourly Forecast** — 3-hour interval updates
+- 📅 **5-Day Forecast** — Plan your week with daily highs
+- 🌫️ **Air Quality Index** — Know the air you breathe
+- 🌅 **Sunrise & Sunset** — Daily sunrise and sunset times
+- 📱 **Responsive Design** — Works on mobile, tablet, and desktop
+- ⚡ **Fast & Minimal UI** — Focused on speed and user experience
+
+---
+
+## 📂 Project Structure
+
+```
+weatherly/
+├── index.html
+├── favicon.svg
+├── LICENSE
+├── README.md
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   ├── api.js
+│   │   ├── app.js
+│   │   ├── module.js
+│   │   └── route.js
+│   └── images/
+│       ├── logo.png
+│       └── weather-icons/
 ```
 
-## Live Demo
-Check out the live demo of Weatherio: [Weatherio Live Demo](https://lnkd.in/dugbR3wq)
+---
 
-## GitHub Repository
-Explore the code and contribute to Weatherio on GitHub: [Weatherio GitHub Repo](https://lnkd.in/duM72HEb)
+## 📦 Getting Started
 
+To run Weatherly locally:
 
-## Author
-- Mohamed Mahrous
-- Contact: mohamedmahrous069@gmail..com
+```bash
+# Clone the project
+git clone https://github.com/shatakshigupta028/weatherly.git
+
+# Go to the project directory
+cd weatherly
+
+# Open with VS Code
+code .
+
+# Right-click index.html → Open with Live Server
+```
+
+> Don't forget to install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for VS Code if you haven't already.
+
+---
+
+## 🔑 API Setup
+
+This project requires a free API key from OpenWeatherMap.
+
+1. Create an account at [OpenWeatherMap](https://openweathermap.org/api).
+2. Copy your API key.
+3. In `assets/js/api.js`, replace:
+
+```javascript
+const api_key = "YOUR_API_KEY_HERE";
+```
+with your actual API key.
 
