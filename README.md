@@ -6,7 +6,7 @@
 
 ## 🚀 Live Preview
 
-🔗 [View Website Here](#https://weatherly-ksduz7mdc-shatakshigupta028s-projects.vercel.app/)  
+🔗 [View Website Here](https://weatherly-ksduz7mdc-shatakshigupta028s-projects.vercel.app/)  
 
 ---
 
