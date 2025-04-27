@@ -1,9 +1,3 @@
-Got it!  
-You want a **more polished, impressive, and professional** README — like a real **portfolio-quality project**.  
-Here’s an upgraded version — **with better structure, better wording, and a cleaner style**.
-
----
-
 # 🌦️ Weatherly — The Ultimate Weather Forecast App
 
 **Weatherly** is a sleek and responsive weather application that delivers real-time weather updates, a 5-day forecast, air quality information, and more. Built with modern web technologies and powered by the OpenWeatherMap API, Weatherly is designed to be fast, accurate, and beautifully simple.
@@ -12,8 +6,7 @@ Here’s an upgraded version — **with better structure, better wording, and a 
 
 ## 🚀 Live Preview
 
-🔗 [View Website Here](#)  
-*(Add your GitHub Pages link here once deployed)*
+🔗 [View Website Here](#https://weatherly-ksduz7mdc-shatakshigupta028s-projects.vercel.app/)  
 
 ---
 
